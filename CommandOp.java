@@ -61,7 +61,7 @@ public class CommandOp extends DiaGraph{
             return output + "No suitable flight plan is found\n\n";   // if there is no proper path returning this string
         }
         for(List<Flight> flights : listProperArray){
-           output = toStringForOutput(flights);    // else returning all proper paths after adding them to output variable
+           output = toStringForOutput(flights);    // else returning all proper paths after add them to output variable
         }
         return output+"\n";
     }
